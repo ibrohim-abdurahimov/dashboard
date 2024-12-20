@@ -1,0 +1,28 @@
+.nav {
+    backdrop-filter: blur(120px);
+    background: linear-gradient(111.84deg, rgba(6, 11, 38, 0.94) 59.3%, rgba(26, 31, 55, 0) 100%);
+
+    /* border: 1px solid;
+    border-image-source: linear-gradient(90deg, rgba(224, 225, 226, 0) 0%, #E0E1E2 49.52%, rgba(224, 225, 226, 0.15625) 99.04%); 
+    backdrop-filter: blur(120px);
+    background: linear-gradient(111.84deg, rgba(6, 11, 38, 0.94) 59.3%, rgba(26, 31, 55, 0) 100%); */
+
+}
+
+.active {
+    background-color:  #1A1F37;
+    color: white;
+    box-shadow: 0px 3.5px 5.5px 0px #00000005;
+    border-radius: 15px;
+    font-size: 16px;
+}
+.active span{
+    background-color: #0075FF;
+}
+
+.tite {
+    text-align: center;
+    color: linear-gradient(97.89deg, #FFFFFF 70.67%, rgba(117, 122, 140, 0) 108.55%);
+    border-bottom: 1px solid;
+    border-color: linear-gradient(90deg, rgba(224, 225, 226, 0) 0%, #E0E1E2 49.52%, rgba(224, 225, 226, 0.15625) 99.04%);
+}
